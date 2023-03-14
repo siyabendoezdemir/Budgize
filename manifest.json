@@ -1,0 +1,40 @@
+{
+    "short_name": "Budgize",
+    "name": "Budgize - Be smart, Be rich",
+    "icons": [
+      {
+        "src": "Assets/Logo/favicon/favicon.png",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "Assets/Logo/favicon/favicon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/index.html",
+    "background_color": "#9c88ff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#9c88ff",
+    "shortcuts": [
+      {
+        "name": "Track expenses",
+        "short_name": "Track",
+        "description": "Track your expenses",
+        "url": "/index.html",
+        "icons": [{ "src": "Assets/Logo/Expensly.png", "sizes": "512x512" }]
+      },
+      {
+        "name": "View expenses",
+        "short_name": "Overview",
+        "description": "See all of your expenses",
+        "url": "/index.html",
+        "icons": [{ "src": "Assets/Logo/Expensly.png", "sizes": "512x512" }]
+      }
+    ],
+    "description": "Track your expenses",
+    "screenshots": []
+  }
