@@ -19,9 +19,11 @@
 
   /*========== z index ==========*/
   --z-modal: 1000;
+  overflow:hidden;
 }
 * {
   box-sizing: border-box;
+  overflow:hidden;
 }
 
 body {
@@ -231,7 +233,7 @@ input[type="number"] {
   background-color: var(--container-color);
   padding: 3rem 2rem 2rem;
   border-radius: 1rem 1rem 0 0;
-  transition: all 0.3s;
+  transition: all 0.5s;
 
   /*=== Effect 1 ===*/
   transform: translateY(10%);
