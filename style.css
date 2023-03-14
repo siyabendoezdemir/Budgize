@@ -121,7 +121,7 @@ input[type="number"] {
   border-radius: 100%;
 
   position: fixed;
-  bottom: 0;
+  bottom: 1rem;
   right: 0;
 }
 
